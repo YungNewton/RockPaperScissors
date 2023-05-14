@@ -118,5 +118,7 @@ print(f"your score is {scores}, and the computer scored {cmpScores}")
 time.sleep(1)
 if scores > cmpScores:
   print("CONGRATULATIONS YOU WON THIS GAME.")
+elif scores == cmpScores:
+  print("WOW A TIGHT ONE. DRAW!!!")
 else:
   print("BETTER LUCK NEXT TIME. THE COMPUTER WON THIS ONE.")
